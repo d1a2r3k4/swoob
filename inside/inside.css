@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+
+#inside1{
+    margin-top: 265px;
+}
+
+
+
+ #iconss{
+    color: #97CC3D;
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+#company{
+    width: 290px;
+   
+    font-size: 15px;
+    border-radius: 18px;
+    margin-top: 15px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+
+#buy{
+    justify-content:  space-between;
+    text-align: center;
+    padding: 0px 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* text-align: center; */
+    align-items: center;
+    background-color: #97CC3D;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#buy p{
+    color: white;
+    margin-top: 11px;
+}
+
+
+#inside1 img{
+    height: 285px;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+ #iconss span{
+    
+    padding: 3px 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    height: 65px;
+    height: 50px;
+    border: 1px solid #4CAF50;
+}
+
+#iconn{
+  
+    width: 37px;
+    height: 37px;
+    border-radius: 100%;
+    border: 1px solid white;
+    background-color: white;
+    font-size: 24px;
+    color: black !important;
+}
+
+#ul1{
+    text-align: left;
+    padding: 0;
+}
+
+#ul1 li{
+    text-align: left;
+    display: flex;
+    margin-top: 15px;
+}
+
+#ul1 p{
+    margin: 0 10px;
+}
+
+#col-4 span{
+    color: #647595;
+    margin-left: 3px;
+    font-size: 13px
+}
+
+#fac{
+    padding: 2px;
+    border-radius: 100px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: blue;
+    border: 1px solid white;
+}
+
+/* #ul1 span{
+    color: #647595;
+    margin-left: 3px;
+    font-size: 13px
+} */
+
+#col-4 h3{
+    text-align: left;
+}
+
+#tex1 li{
+    color: #5a5858;
+}
+
+#tex3{
+    height: 121px;
+    padding: 14px;
+    border-radius: 12px;
+    width: 30%;
+    margin-top: 30px;
+    border: 1px solid #dad3d3;
+}
+
+#shetavazeba p{
+    color: #647595;
+    cursor: pointer;
+}
+
+#shetavazeba p:active{
+    color: rgb(32, 32, 114);
+}
+
+#inputs{
+    width: 320px;
+    padding: 0 8px;
+    border: 1px solid rgba(137, 150, 174, 0.2);
+    height: 295px;
+    border-radius: 18px;
+}
+
+
+@media screen and (max-width:769px) {
+
+    #col-4{
+        margin-top: 20px;
+    }
+
+    #inputs{
+        width: 100%;
+        padding: 0 8px;
+    border: 1px solid rgba(137, 150, 174, 0.2);
+    height: 295px;
+    border-radius: 18px;
+    }
+    
+}

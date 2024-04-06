@@ -188,7 +188,7 @@ let lastScrollTop = 0;
 
   $("#spn").click(function(){
     $(".loginBox").fadeToggle();
-    $('header,.karusel,.first,.tbs,.owli,.part,#up,#inside1,#textiifooter').toggleClass('blur')
+    $('header,.karusel,.first,.tbs,.owli,.part,#up,#inside1,#textii,footer').toggleClass('blur')
    
   });
 

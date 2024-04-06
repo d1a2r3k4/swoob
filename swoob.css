@@ -93,10 +93,22 @@ header nav #uli {
 header nav #uli li {
   margin: 0 20px 0 20px;
 }
+
+header nav #uli li #bank {
+  font-size: 17px;
+  color: white;
+  background-color: #00AEEF;
+  text-wrap: nowrap;
+  padding: 4px;
+  border-radius: 20px;
+  margin-left: 100px;
+}
+
+
 header nav #uli li a {
   display: flex;
   color: black;
-  font-size: 25px;
+  font-size: 17px;
 }
 header nav #uli li a:hover {
   color: green;

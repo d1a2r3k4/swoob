@@ -239,7 +239,7 @@ if (window.matchMedia("(min-width: 768px)").matches) {
 
 
 // უკუთვლა
-let countDownDate = new Date("march 29, 2024 15:37:25").getTime();
+let countDownDate = new Date("april 29, 2024 15:37:25").getTime();
 
 let x = setInterval(function() {
 

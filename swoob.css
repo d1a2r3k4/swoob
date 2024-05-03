@@ -776,7 +776,10 @@ p {
     left: -8%;
   }
   .first h1 {
-    margin-right: 15%;
+   font-size: 21px;
+        text-wrap: nowrap;
+        display: flex;
+        margin-right: 15%;
   }
   .karusel .carusel img {
     height: 170px;
